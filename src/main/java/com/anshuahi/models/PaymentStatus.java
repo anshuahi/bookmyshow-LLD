@@ -1,4 +1,6 @@
 package com.anshuahi.models;
 
-public class PaymentStatus {
+public enum PaymentStatus {
+    SUCCESS,
+    FAILURE
 }

@@ -4,11 +4,11 @@ import java.util.Date;
 import java.util.List;
 
 public class Show {
-    private Movie movie;
+    private Movie movie;    //ManyToOne
     private Date startTime;
     private Date endTime;
 
-    private Auditorium auditorium;
+    private Auditorium auditorium;  //ManyToOne
 
-    private List<Feature> showFeatures;
+    private List<Feature> showFeatures;     //ManyToMany
 }

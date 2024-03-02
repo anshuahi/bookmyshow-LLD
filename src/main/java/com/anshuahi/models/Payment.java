@@ -4,11 +4,11 @@ import java.util.Date;
 
 public class Payment extends BaseModel{
 
-    private PaymentMethod paymentMethod;
+    private PaymentMethod paymentMethod;    //ManyToOne
     private Date timeOfPayment;
     private double amount;
     private String referenceId;
 
-    private PaymentStatus paymentStatus;
-    private Ticket ticket;
+    private PaymentStatus paymentStatus;    //ManyToOne
+    private Ticket ticket;                  //ManyToOne
 }
